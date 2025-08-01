@@ -59,7 +59,10 @@ namespace ASSOOP03
             #endregion
 
             #region Q3
-            Employee[] emp= new Employee[1];
+            //Employee emp1 = new Employee();
+            //Console.WriteLine("Default Employee:");
+            //Console.WriteLine(emp1.ToString());
+            Employee[] emp= new Employee[3];
             for (int i = 0; i < emp.Length; i++)
             {
                 Console.WriteLine($"Enter details for Employee {i + 1}:");

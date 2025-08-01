@@ -62,7 +62,7 @@ namespace ASSOOP03
 
         public Employee()
         {
-            ID = 0;
+            ID = 1;
             Name = "Unknown";
             Gender = 'M';
             Salary = 0;
